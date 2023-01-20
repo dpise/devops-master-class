@@ -11,3 +11,4 @@ stages:
     steps:
     - bash: echo Build FirstJob
     - bash: echo $(PipelineLevelVariable)
+    - bash: echo $(Build.BuildNumber)
